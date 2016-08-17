@@ -1,5 +1,12 @@
 <html>
-	<p>Hi there! </p>
-	<p>It works! </p>
+	<head>
+		<title>Django girls blog</title>
+	</head>
+	<body>
+		<div>
+			<h1><a href="">Django Girls Blog</a></h1>
+		</div>
+		{{ posts }}
+	</body>
 
 </html>
