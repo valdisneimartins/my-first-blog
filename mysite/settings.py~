@@ -1,5 +1,3 @@
-from __future__ import unicode_literals
-
 """
 Django settings for mysite project.
 
@@ -25,7 +23,7 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 SECRET_KEY = 'pe4%)ydi&&n=$%l32&__buw73d*tpz#zleozrn$!k5q!h(%dgy'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = False
+DEBUG = True
 
 ALLOWED_HOSTS = []
 
